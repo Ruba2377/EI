@@ -1,0 +1,63 @@
+GIT COMMANDS
+
+git init - initialize a new git repo
+git clone <url> - copies remote repo to local
+git status - shows changed files
+git add <file> - stages file for commit
+git add . - stages all files
+git commit -m "msg" - saves staged changes with message
+git log - shows commit history
+git diff - shows changes not yet staged
+git branch - shows the branches
+git checkout <branch> - switches to another branch
+git checkout -b <name> - creates and switches to another new branch
+git merge <branch> - merges branch into current branch
+git remote -v - shows remote url
+git push - sends changes to remote repo
+git pull - gets latest changes from remote
+git config - sets git configuration
+git rm <file> - deletes file from working and staging
+git reset <file> - unstages file
+git stash - temporarily saves files 
+cd <folder> - changes directory (go into a folder)
+cd .. - move one level up (to parent directory)
+mkdir <name> - makes a new directory(folder)
+vim <file> - opens or creates a file in vim text editor
+cat <file> - display the contents of a file
+
+Basic vim commands
+
+| **Vim Command** | **Explanation**               |
+| --------------- | ----------------------------- |
+| `:w`            | Save the file                 |
+| `:q`            | Quit Vim                      |
+| `:wq`           | Save and quit                 |
+| `:q!`           | Quit without saving           |
+| `:wq!`          | Force save and quit           |
+| `:x`            | Save and quit (same as `:wq`) |
+| `i`             | Enter insert mode             |
+| `Esc`           | Exit insert mode              |
+| `:set nu`       | Show line numbers             |
+| `:set nonu`     | Hide line numbers             |
+| `dd`            | Delete a line                 |
+| `yy`            | Copy a line                   |
+| `p`             | Paste after the cursor        |
+| `u`             | Undo                          |
+| `Ctrl + r`      | Redo                          |
+| `/word`         | Search for a word             |
+| `:help`         | Open Vim help                 |
+
+PULL AND PUSH OF A FILE FROM GITHUB
+
+| Action           | Git Command                           |
+| ---------------- | ------------------------------------- |
+| Set up Git       | `git config --global user.name/email` |
+| Init repo        | `git init`                            |
+| Add files        | `git add .`                           |
+| Commit           | `git commit -m "message"`             |
+| Add remote       | `git remote add origin <repo-url>`    |
+| Push to GitHub   | `git push -u origin main`             |
+| Pull from GitHub | `git pull origin main`                |
+
+AND ALSO history can be used to view the commands that are used in the past 
+
