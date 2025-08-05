@@ -15,7 +15,8 @@ git merge <branch> - merges branch into current branch
 git remote -v - shows remote url
 git push - sends changes to remote repo
 git pull - gets latest changes from remote
-git config - sets git configuration
+git config - sets git configurati
+on
 git rm <file> - deletes file from working and staging
 git reset <file> - unstages file
 git stash - temporarily saves files 
@@ -60,4 +61,13 @@ PULL AND PUSH OF A FILE FROM GITHUB
 | Pull from GitHub | `git pull origin main`                |
 
 AND ALSO history can be used to view the commands that are used in the past 
+
+
+How to push a local branch to github
+| Action                         | Command                          |
+| ------------------------------ | -------------------------------- |
+| Create local branch            | `git branch branch-name`         |
+| Switch to that branch          | `git checkout branch-name`       |
+| OR create + switch immediately | `git checkout -b branch-name`    |
+| Push the branch to GitHub      | `git push -u origin branch-name` |
 
